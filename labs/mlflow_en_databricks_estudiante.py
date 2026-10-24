@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
 # MAGIC %md
 # MAGIC # MLflow en Databricks, paso a paso
 # MAGIC
@@ -29,6 +33,10 @@
 # MAGIC %md
 # MAGIC ## 0. Configuración
 # MAGIC Instalamos una versión reciente de MLflow (`-U` actualiza la que trae el cómputo) y reiniciamos Python.
+
+# COMMAND ----------
+
+# MAGIC %restart_python
 
 # COMMAND ----------
 
